@@ -33,7 +33,7 @@ function growSpiral() {
   var rot = vector.rotate(90);
   var color = raster.getAverageColor(position + vector / 2);
   var value = color ? (1 - color.gray) * 3.7 : 0;
-  rot.length = Math.max(value, 0.2);
+  rot.length = value;
   path.add(position + vector - rot);
   path.insert(0, position + vector + rot);
   position += vector;
@@ -41,17 +41,14 @@ function growSpiral() {
 
 function resetSpiral() {
   grow = true;
-
   // Transform the raster, so it fills the view:
   raster.fitBounds(view.bounds);
 
   if (path) path.remove();
-
-  position = view.center;
   count = 0;
   path = new Path({
-    fillColor: 'darkslategray',
-    closed: false,
+    fillColor: '#025',
+    closed: true,
   });
 
   position = view.center;
@@ -71,21 +68,4 @@ function onKeyDown(event) {
 
 tool.fixedDistance = 25;
 
-// function onMouseMove(event) {
-// 	// Create a circle shaped path with its center point
-// 	// at the point in the middle between the current mouse
-// 	// position and the position when the last onMouseDrag
-// 	// event was fired:
-// 	var path = new Path.Circle({
-// 		center: event.middlePoint,
-// 		radius: 10,
-// 	});
-
-// 	// Get the average color of the pixels that fall within
-// 	// the shape of the path:
-// 	path.fillColor = raster.getAverageColor(path);
-// }
-
-// tool.minDistance = 10;
-// tool.maxDistance = 45;
 

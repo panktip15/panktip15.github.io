@@ -13,12 +13,20 @@ body{
 
 .App-header {
   background-color: #025;
-  justify-content: space-evenly;
   display: flex;
   height: 50px;
-  padding: 20px;
+  padding: 20px 100px 20px 100px;
+  justify-content: space-between;
   color: white;
   align-items: center
+}
+
+.App-footer {
+  background-color: #025;
+  height: 50px;
+  color: white;
+  align-items: center;
+  padding: 20px 100px 20px 100px;
 }
 
 .App-title {
@@ -30,11 +38,6 @@ body{
   color: darkslategray
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 .name {
   font-size: 40px
 }
@@ -42,7 +45,7 @@ body{
 .navBar {
 font-size: 18px;
 display: flex;
-width: 600px;
+width: 550px;
 justify-content: space-evenly;
 }
 
@@ -53,4 +56,9 @@ justify-content: space-evenly;
 
 #myCanvas {
 height: 610px
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }

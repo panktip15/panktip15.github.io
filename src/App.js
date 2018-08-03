@@ -6,17 +6,23 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-            <span className="name">Pankti Doshi</span>
+          <span className="name">Pankti Doshi</span>
           <div className="navBar">
-            <span>About me</span>
-            <span>Project</span>
-            <span>Resume</span>
-            <span>Blog</span>
-            <span>Contact</span>
+            <span>about</span>
+            <span>project</span>
+            <span>resume</span>
+            <a href="https://medium.com/@panktip85" target="_blank">
+              blog
+            </a>
+            <span>contact</span>
           </div>
         </header>
-        <br/>
+        <br />
         <canvas id="myCanvas" />
+        <br />
+        <footer className="App-footer">
+          <span>contact</span>
+        </footer>
       </div>
     );
   }
