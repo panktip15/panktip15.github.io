@@ -8,8 +8,8 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: rgb(137, 153, 177);
+  height: 800px;
   padding: 20px;
   color: white;
 }
@@ -25,4 +25,12 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+#pankti {
+  display: none;
+}
+
+#myCanvas {
+height: 700px
 }
