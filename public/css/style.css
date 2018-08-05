@@ -48,7 +48,6 @@ body a {
 	-ms-background-size:cover;
 	min-height:680px;
 	    position: relative;
-		margin-bottom: 10.6em
 }
 .banner1{
 	background:url(../images/banner.jpg) no-repeat 0px 0px;
@@ -62,27 +61,6 @@ body a {
 .header{
 	padding:5em 0 10em;
     text-align: center;
-}
-.header-left ul li{
-	display:inline-block;
-	margin-right:5em;
-	font-size:14px;
-	color:#fff;
-}
-.header-left ul li span{
-	left:-.5em;
-	color:#00bdbd;
-}
-.header-left ul li a{
-	color:#fff;
-	text-decoration:none;
-}
-.header-left ul li a:hover{
-	color:#00bdbd;
-}
-.header-left {
-    float: left;
-    padding: 0em 0 0 0em;
 }
 .header-right{
 	float: right;
@@ -103,13 +81,13 @@ body a {
     color: #fff;
 }
 .name p {
-    font-size: 30px;
+    font-size: 26px;
     margin: 10px 0 15px;
     letter-spacing: 11px;
     color: rgb(250, 249, 249);
 }
 .container.banner-drop.nav-open{
-  margin-top: 8em;
+  margin-top: 5em;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -211,7 +189,7 @@ body a {
     z-index: -1;
 }
 .header-right nav ul li.animate {
-  top: 0;
+  top: 20px;
 }
 .header-right nav ul li {
   display: inline-block;
@@ -373,30 +351,7 @@ ul.top-links li a i.fa-google-plus:hover{
  position: relative;
     margin-bottom: 10.6em;
 }*/
-.banner-btm-grid-w3ls {
-    position: absolute;
-    width: 70%;
-    top: 31em;
-    left: 15.3em;
-}
-.banner-left-wthree {
-    float: left;
-    width: 49%;
-    background: #0c0c0c;
-    padding: 30px 50px;
-}
-.banner-right-w3-agileits {
-    float: right;
-    width: 49%;
-    background: #000;
-    padding: 1em;
-}
-.banner-left-wthree img {
-    margin: 0 auto;
-    width: 28%;
-    border: 2px solid #00bdbd;
-    padding: 6px;
-}
+
 ul.address {
     margin-top: 2em;
     border-top: 1px solid #ec1944;
@@ -426,12 +381,6 @@ ul.address-text b {
     color:#fff;
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 1px;
-}
-.banner-right-w3-agileits iframe {
-    outline: none;
-    border: none;
-    width: 100%;
-    height: 315px;
 }
 /*-- //banner --*/
 /*-- about --*/
@@ -1007,17 +956,8 @@ a.lightbox img:hover {
 	.header {
 		padding: 4em 0 9em;
 	}
-	.banner-btm-grid-w3ls {
-		left: 14em;
-	}
 	.name span {
 		font-size: 42px;
-	}
-	.banner-right-w3-agileits iframe {
-		height: 332px;
-	}
-	.banner {
-		margin-bottom: 11.6em;
 	}
 	.news-right {
 		padding: 3.65em 2em 3.5em 2em;
@@ -1027,20 +967,8 @@ a.lightbox img:hover {
 	.logo h1 a {
 		font-size: 1.4em;
 	}
-	.banner-left-wthree {
-		padding: 30px 45px;
-	}
-	.banner-btm-grid-w3ls {
-		width: 72%;
-		top: 29em;
-		left: 12.58em;
-	}
-	.banner-right-w3-agileits iframe {
-		height: 300px;
-	}
 	.banner {
 		min-height: 630px;
-		margin-bottom: 10.9em;
 		    background: url(../images/banner.jpg) no-repeat -62px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
@@ -1078,14 +1006,8 @@ a.lightbox img:hover {
 	.container.banner-drop.nav-open {
 		margin-top: 7em;
 	}
-	.banner-btm-grid-w3ls {
-		width: 76%;
-		top: 27em;
-		left: 9.8em;
-	}
 	.banner {
 		min-height: 604px;
-		margin-bottom: 10.4em;
 	}
 	h5.sub {
 		font-size: 16px;
@@ -1097,9 +1019,6 @@ a.lightbox img:hover {
 	.news-right a h4 {
 		font-size: 1.3em;
 		margin-bottom: 1.2em;
-	}
-	.banner-right-w3-agileits iframe {
-		height: 298px;
 	}
 	.work-info h4 {
 		font-size: 1.2em;
@@ -1120,29 +1039,17 @@ a.lightbox img:hover {
 	.container.banner-drop.nav-open {
 		margin-top: 6em;
 	}
-	.banner-left-wthree img {
-		width: 35%;
-	}
 	ul.address {
 		margin-top: 1.6em;
 	}
-	.banner-left-wthree {
-		padding: 30px 40px;
-	}
 	ul.address li ul.address-text li {
 		font-size: 13px;
-	}
-	.banner-btm-grid-w3ls {
-		width: 83%;
-		top: 25.5em;
-		left: 5.8em;
 	}
 	.banner-right-w3-agileits iframe {
 		height: 301px;
 	}
 	.banner {
 		min-height: 578px;
-		margin-bottom: 10.5em;
 		background: url(../images/banner.jpg) no-repeat -120px 0px;
 		background-size: cover;
 	}
@@ -1226,7 +1133,6 @@ a.lightbox img:hover {
 	}
 	.banner {
 		min-height: 538px;
-		margin-bottom: 9.8em;
 		background: url(../images/banner.jpg) no-repeat -96px 0px;
 		background-size: cover;
 	}
@@ -1284,7 +1190,6 @@ a.lightbox img:hover {
 	}
 	.banner {
 		min-height: 490px;
-		margin-bottom: 10em;
 		background: url(../images/banner.jpg) no-repeat -45px 0px;
 		background-size: cover;
 	}
@@ -1312,20 +1217,8 @@ a.lightbox img:hover {
 	}
 	.banner {
 		min-height: 470px;
-		margin-bottom: 9.96em;
 		background: url(../images/banner.jpg) no-repeat -26px 0px;
 		background-size: cover;
-	}
-	.banner-btm-grid-w3ls {
-		top: 19em;
-		left: 8em;
-		width: 74%;
-	}
-	.banner-left-wthree img {
-		width: 39%;
-	}
-	.banner-right-w3-agileits iframe {
-		height: 277px;
 	}
 	.work-right.work-right2 {
 		min-height: 246px;
@@ -1404,12 +1297,8 @@ a.lightbox img:hover {
 	.header {
 		padding: 2em 0 5em;
 	}
-	.banner-btm-grid-w3ls {
-		top: 17.5em;
-	}
 	.banner {
 		min-height: 435px;
-		margin-bottom: 9.2em;
 		background: url(../images/banner.jpg) no-repeat -33px 0px;
 		background-size: cover;
 	}
@@ -1474,7 +1363,6 @@ a.lightbox img:hover {
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -100px 0px;
 		background-size: cover;
-		    margin-bottom: 8.95em;
 	}
 }
 @media(max-width:768px){
@@ -1531,7 +1419,6 @@ a.lightbox img:hover {
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -20px 0px;
 		background-size: cover;
-		margin-bottom: 12.45em;
 		min-height: 355px;
 	}
 	h4.title-w3ls {
@@ -1569,7 +1456,6 @@ a.lightbox img:hover {
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -60px 0px;
 		background-size: cover;
-		margin-bottom: 32.8em;
 	}
 	.banner-right-w3-agileits iframe {
 		height: 215px;
@@ -1597,7 +1483,6 @@ a.lightbox img:hover {
 		padding: 65px 0px;
 	}
 	.banner {
-		margin-bottom: 32.9em;
 		min-height: 348px;
 	}
 	.banner-btm-grid-w3ls {
@@ -1622,7 +1507,6 @@ a.lightbox img:hover {
 		top: 14.8em;
 	}
 	.banner {
-		margin-bottom: 32.4em;
 		min-height: 327px;
 	}
 	h4.title-w3ls {
@@ -1664,7 +1548,6 @@ a.lightbox img:hover {
 		top: -27%;
 	}
 	.banner {
-		margin-bottom: 31.6em;
 		min-height: 310px;
 	}
 	h5.sub {
@@ -1764,7 +1647,6 @@ a.lightbox img:hover {
 		margin: 3px !important;
 	}
 	.banner {
-		margin-bottom: 26.99em;
 		min-height: 270px;
 	}
 	.banner-right-w3-agileits {
@@ -1859,7 +1741,6 @@ a.lightbox img:hover {
 		padding: 1em .8em 2em;
 	}
 	.banner {
-		margin-bottom: 28.45em;
 		min-height: 240px;
 	}
 	.banner-btm-grid-w3ls {
@@ -1927,7 +1808,6 @@ a.lightbox img:hover {
 		font-size: 18px;
 	}
 	.banner {
-		margin-bottom: 29.79em;
 		background: url(../images/banner.jpg) no-repeat -25px 0px;
 		background-size: cover;
 		min-height: 205px;
@@ -1996,7 +1876,6 @@ a.lightbox img:hover {
 		top: 10.4em;
 	}
 	.banner {
-		margin-bottom: 30.45em;
 		background: url(../images/banner.jpg) no-repeat -16px 0px;
 		background-size: cover;
 		min-height: 192px;
@@ -2053,7 +1932,6 @@ a.lightbox img:hover {
 		font-size: 11.5px;
 	}
 	.banner {
-		margin-bottom: 29.2em;
 		background: url(../images/banner.jpg) no-repeat -5px 0px;
 		background-size: cover;
 		min-height: 160px;
@@ -2096,3 +1974,5 @@ a.lightbox img:hover {
 	}
 }
 /*--responsive--*/
+
+
