@@ -17,9 +17,7 @@ class App extends Component {
             <span>contact</span>
           </div>
         </header>
-        <br />
         <canvas id="myCanvas" />
-        <br />
         <footer className="App-footer">
           <span>contact</span>
         </footer>
