@@ -70,26 +70,25 @@ body a {
 }
 .logo h1 a {
     font-size: 1.5em;
-
     text-decoration: none;
     color: #00bdbd;
     line-height: 45px;
 }
-.name span {
-    /* text-align: center; */
-    font-family: 'Oleo Script', cursive;
-    font-size: 50px;
-    letter-spacing: 4px;
+.name h1 {
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 6px;
     color: #fff;
 }
 .name p {
+    text-align: center;
     font-size: 26px;
-    margin: 10px 0 15px;
-    letter-spacing: 11px;
+    margin: 10px 0px 10px;
+    letter-spacing: 10px;
     color: rgb(250, 249, 249);
 }
 .container.banner-drop.nav-open{
-  margin-top: 5em;
+  margin-top: 100px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -259,10 +258,10 @@ body a {
   text-shadow: 0px 0px #525252, 1px 1px #525252, 2px 2px #525252, 3px 3px #525252, 4px 4px #525252, 5px 5px #525252, 6px 6px #525252, 7px 7px #525252, 8px 8px #525252, 9px 9px #525252, 10px 10px #525252, 11px 11px #525252, 12px 12px #525252, 13px 13px #525252, 14px 14px #525252, 15px 15px #525252, 16px 16px #525252, 17px 17px #525252, 18px 18px #525252, 19px 19px #525252, 20px 20px #525252, 21px 21px #525252, 22px 22px #525252, 23px 23px #525252, 24px 24px #525252, 25px 25px #525252, 26px 26px #525252, 27px 27px #525252, 28px 28px #525252, 29px 29px #525252, 30px 30px #525252, 31px 31px #525252, 32px 32px #525252, 33px 33px #525252, 34px 34px #525252, 35px 35px #525252, 36px 36px #525252, 37px 37px #525252, 38px 38px #525252, 39px 39px #525252, 40px 40px #525252, 41px 41px #525252, 42px 42px #525252, 43px 43px #525252, 44px 44px #525252, 45px 45px #525252, 46px 46px #525252, 47px 47px #525252, 48px 48px #525252, 49px 49px #525252, 50px 50px #525252, 51px 51px #525252, 52px 52px #525252, 53px 53px #525252, 54px 54px #525252, 55px 55px #525252, 56px 56px #525252, 57px 57px #525252, 58px 58px #525252, 59px 59px #525252, 60px 60px #525252;
 }
 .header-right nav ul li.active a{
-	color:#ec1944;
+	color:#00bdbd;
 }
 .header-right nav ul li a:hover {
-    color: #ec1944;
+    color: #00bdbd;
 }
 .header-right nav ul li a{
     color: #454445;
@@ -293,12 +292,12 @@ body a {
 
 /*-- social-icons --*/
 .social-icons {
-    /* text-align: center; */
+    text-align: center;
 }
 .social-icons ul li{
 	display:inline-block;
 	padding: 0 !important;
-    margin: 5px !important;
+  margin: 5px !important;
 }
 ul.top-links li {
     margin-right: 19px;
@@ -413,6 +412,7 @@ h5.sub {
 /*-- skills --*/
 .skills-bar {
     margin-top: 3em;
+    width: 50%
 }
 .skills-bar .bar_group__bar.thin::before, .skills-bar .bar_group__bar.thick::before {
   display: block;
@@ -539,7 +539,6 @@ h5.sub {
 .work-info h5 {
     font-size: 1.3em;
     color: #00bdbd;
-    margin-bottom: .5em;
     /* border: 1px solid #F7E612; */
     display: inline-block;
     padding: 0 1.2em;
@@ -598,6 +597,10 @@ h5.sub {
     color: #777;
     font-size: 15px;
     line-height: 24px;
+}
+.work-info h6 {
+  font-size: 18px;
+  line-height: 24px;
 }
 .experience {
     padding-top: 0px!important;
@@ -950,7 +953,7 @@ a.lightbox img:hover {
 	.header {
 		padding: 4em 0 9em;
 	}
-	.name span {
+	.name h1 {
 		font-size: 42px;
 	}
 	.news-right {
@@ -970,7 +973,7 @@ a.lightbox img:hover {
 		-o-background-size: cover;
 		-ms-background-size: cover;
 	}
-	.name span {
+	.name h1 {
 		font-size: 37px;
 		letter-spacing: 3px;
 	}
@@ -1112,7 +1115,7 @@ a.lightbox img:hover {
 	.header {
 		padding: 3em 0 6.5em;
 	}
-	.name span {
+	.name h1{
 		font-size: 31px;
 	}
 	.name p {
@@ -1278,7 +1281,7 @@ a.lightbox img:hover {
 	.logo h1 a {
 		font-size: 1.1em;
 	}
-	.name h2 {
+	.name h1 {
 		font-size: 27px;
 	}
 	.name p {
@@ -1398,7 +1401,7 @@ a.lightbox img:hover {
 	.header {
 		padding: 2em 1em 5em;
 	}
-	.name h2 {
+	.name h1 {
 		font-size: 25px;
 	}
 	.header {
@@ -1493,7 +1496,7 @@ a.lightbox img:hover {
 	.logo h1 a {
 		font-size: 34px;
 	}
-	.name h2 {
+	.name h1 {
 		font-size: 23px;
 		letter-spacing: 2px;
 	}
@@ -1622,7 +1625,7 @@ a.lightbox img:hover {
 	.header {
 		padding: 1.2em .8em 2.2em;
 	}
-	.name h2 {
+	.name h1 {
 		font-size: 21px;
 	}
 	.name p {
@@ -1725,7 +1728,7 @@ a.lightbox img:hover {
 	.name p {
 		letter-spacing: 3px;
 	}
-	.name h2 {
+	.name h1 {
 		font-size: 20px;
 	}
 	.logo h1 a {
@@ -1901,7 +1904,7 @@ a.lightbox img:hover {
 	.header {
 		padding: .6em .8em .9em;
 	}
-	.name h2 {
+	.name h1 {
 		font-size: 18px;
 	}
 	.name p {
