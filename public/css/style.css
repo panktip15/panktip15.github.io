@@ -641,13 +641,16 @@ h5.sub {
 	padding:0;
 }
 .news-left img{
-	width:100%;
+  width:100%;
+  height: 300px;
+  border:  1px solid rgb(230, 229, 229);
 }
 .news-right {
     padding: 3.68em 2em 3.5em 2em;
     border: 1px solid rgb(230, 229, 229);
     text-align: left;
-	background: #fff;
+    background: #fff;
+    height: 300px;
 }
 .news-right h4{
 	margin:0;
