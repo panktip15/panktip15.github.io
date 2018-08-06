@@ -5,13 +5,13 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
-    font-size: 100%;
+  font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
 }
 p{
 	margin:0;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2{
 	font-family: 'Oleo Script', cursive;
 	font-weight:100;
 	margin:0;
@@ -43,8 +43,8 @@ body a {
 
 #loading-image {
   position: absolute;
-  top: 100px;
-  left: 240px;
+  top: 200px;
+  left: 600px;
   z-index: 100;
 }
 
@@ -316,6 +316,7 @@ body a {
 	padding: 0 !important;
   margin: 5px !important;
 }
+
 ul.top-links li {
     margin-right: 19px;
     display: inline-block;
@@ -323,19 +324,17 @@ ul.top-links li {
 ul.top-links {
       margin-top: 0;
 }
+ul.top-links li a i.fa.notLoading {
+  border: 2px solid #00bdbd;
+}
 ul.top-links li a i.fa {
     color: #fff;
     font-size: 20px;
     line-height: 31px;
     text-align: center;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
     width: 36px;
     height: 36px;
-    border: 2px solid #00bdbd;
+    border: 2px solid #00bdbd00;
 }
 ul.top-links li a i.fa:hover {
     border: 2px solid #fff;
