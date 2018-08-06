@@ -323,16 +323,17 @@ ul.top-links li a i.fa {
 ul.top-links li a i.fa:hover {
     border: 2px solid #fff;
 }
-ul.top-links li a i.fa-facebook:hover{
-	color:#6caddf;
-}
-ul.top-links li a i.fa-twitter:hover{
-	color:#1da1f2;
-}
+
 ul.top-links li a i.fa-linkedin:hover{
 	color:#dd5143;
 }
-ul.top-links li a i.fa-google-plus:hover{
+ul.top-links li a i.fa-github:hover{
+	color:#dd4b39;
+}
+ul.top-links li a i.fa-medium:hover{
+	color:#dd4b39;
+}
+ul.top-links li a i.fa-at:hover{
 	color:#dd4b39;
 }
 .w3_navigation {
