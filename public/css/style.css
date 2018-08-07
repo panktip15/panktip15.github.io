@@ -528,6 +528,12 @@ h5.sub {
     text-align: right;
     padding: 3em 5em 0 0;
 }
+.work-left  ul{
+  text-align: justify;
+}
+.work-right  ul{
+  text-align: justify;
+}
 .work-right {
     border-left: 1px solid #999;
     padding: 2.5em 0 2em 6em;
@@ -608,7 +614,7 @@ h5.sub {
 	-o-transform: scale(1.2);
 	-ms-transform: scale(1.2);
 }
-.work-info p {
+.work-info li {
     color: #777;
     font-size: 15px;
     line-height: 24px;
@@ -796,7 +802,7 @@ opacity: 0.3;
 }
 
 .jm-item-button a {
-  background:rgba(234, 135, 8, 0.9);
+  background: #00c5b5d9;
   text-transform: uppercase;
   color: #FFFFFF;
   font-size: 15px;
@@ -812,6 +818,7 @@ opacity: 0.3;
 
 .jm-item-button a:hover {
   background:#FFE;
+  color:#00c5b5d9;
 }
 a.agile-its-property-title {
   font-size: 22px;
@@ -846,7 +853,7 @@ top: 45%;
 /*-- //gallery --*/
 /*-- model --*/
 .modal-dialog {
-  width:80em;
+  width:40em;
   margin: 91px auto;
 }
 .ins-details {
