@@ -67,7 +67,6 @@ body a {
   -ms-background-size:cover;
 	min-height:800px;
   position: relative;
-  transform: scale(1.1);
 }
 .banner1{
 	background:url(../images/banner.jpg)-25px -50px;
