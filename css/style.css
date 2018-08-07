@@ -58,18 +58,18 @@ body a {
 	-ms-transition:.5s ease-in-out;
 }
 .banner{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background:url(../images/banner.jpg)  -25px -50px;
   background-size:cover;
   background-attachment: fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-	-ms-background-size:cover;
+  -ms-background-size:cover;
 	min-height:800px;
-	    position: relative;
+	position: relative;
 }
 .banner1{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background:url(../images/banner.jpg)-25px -50px;
   background-size:cover;
   background-attachment: fixed;
 	-webkit-background-size:cover;
