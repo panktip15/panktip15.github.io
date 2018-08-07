@@ -22,6 +22,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <!-- //js -->
 <link href='//fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -156,6 +157,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 </div>
 <!-- //about -->
+
 <!--work-experience-->
 	<div id="experience" class="experience">
 		<div class="container">
@@ -239,96 +241,337 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="clearfix"> </div>
           </div>
 		</div>
-	</div>
-	<!--//work-experience-->
-<!-- projects -->
-<div class="projects" id="projects">
-	<div class="container">
-	<span class="about-top-w3" id="p1">The best of my projects </span>
+  </div>
+
+
+  <!--//work-experience-->
+  <!-- main-content -->
+	<div class="main-content">
+      <!-- gallery -->
+    <div class="gallery" id="projects">
+      <div class="w3-gallery-head">
+      </div>
+    <div class="container">
+      	<span class="about-top-w3" id="p1">The best of my projects </span>
 		<h4 class="title-w3ls" >Featured Projects</h4>
-		<div class="news-bottom">
-				<div class="news-one-wthree-agile" >
-					<div class="col-md-6 news-left">
-						        <div class="biseller-column">
-										<a class="lightbox" href="#one">
-											<img src="images/p1.jpg" alt=""/>
-										</a>
-										<div class="lightbox-target" id="one">
-										 <img src="images/p1.jpg" alt=""/>
-										 <p class="pop">Stack: React-native, Redux, React-Redux, Express, Sequelize
-                        Implemented Plaid API to securely allow users to connect to their bank accounts and show their current account balance
-                        Users set up a budget and take a quiz that determines the users spending personality. 3D library is used to display the transactions based on overall budget, spending by category.
-                        Finance articles are suggested based on user spending personality. Implemented push notifications using Expo to remind users to check the app.
-                        </p>
-										   <a class="lightbox-close" href="#p1"> </a>
+      <div class="gallery_gds">
+        <ul class="simplefilter ">
+                  <li class="active" data-filter="all">All</li>
+                  <li data-filter="1">Developer</li>
+                  <li data-filter="2">Structural Engineer</li>
+                  <li data-filter="3">Architect</li>
+              </ul>
+              <div class="filtr-container " style="padding: 0px; position: relative; height: 858px;">
+          <div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 5" data-sort="Busy streets" style="opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+            <div class="jm-item-wrapper">
+              <div class="jm-item-image">
+                <img src="images/g1.jpg" alt="property" />
+                <span class="jm-item-overlay"> </span>
+                <div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal1">View Details</a></div>
+              </div>
 
-											<div class="clearfix"> </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="2, 5" data-sort="Luminous night" style="opacity: 1; transform: scale(1) translate3d(380px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+            <div class="jm-item-wrapper">
+              <div class="jm-item-image">
+                <img src="images/g2.jpg" alt="property" />
+                <span class="jm-item-overlay"> </span>
+                <div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal2">View Details</a></div>
+              </div>
 
-										</div>
-							   </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 4" data-sort="City wonders" style="opacity: 1; transform: scale(1) translate3d(760px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+            <div class="jm-item-wrapper">
+              <div class="jm-item-image">
+                <img src="images/g31.jpg" alt="property" />
+                <span class="jm-item-overlay"> </span>
+                <div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal3">View Details</a></div>
+              </div>
 
-					</div>
-					<div class="col-md-6 news-right" id="p2">
-					<a href="#one"><h4>Money Mentor</h4></a>
-						<p class="para-w3-agile">Developed an iOS personal finance application that allows users to link to their bank account and help them set and stay within Budget.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="news-one-wthree-agile" >
-					<div class="col-md-6 news-right">
-						<a href="#three"><h4>Gallivanter</h4></a>
-						<p class="para-w3-agile">Developed a single page web application that allows users to see local events on map based on location and dates</p>
-					</div>
-					<div class="col-md-6 news-left" id="p3">
-						 <div class="biseller-column">
-										<a class="lightbox" href="#three">
-											<img src="images/p2.jpg" alt=""/>
-										</a>
-										<div class="lightbox-target" id="three">
-										 <img src="images/p2.jpg" alt=""/>
-										 <p class="pop">Stack: React, React-Redux, Bootstrap
-                        Application uses Mapbox API for maps, Google places API to get the coordinates and Eventful API to get the current events.
-                        </p>
-										   <a class="lightbox-close" href="#p2"> </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 3" data-sort="In production" style="opacity: 1; transform: scale(1) translate3d(0px, 286px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+            <div class="jm-item-wrapper">
+              <div class="jm-item-image">
+                <img src="images/g4.jpg" alt="property" />
+                <span class="jm-item-overlay"> </span>
+                <div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal4">View Details</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="3, 4" data-sort="Industrial site" style="opacity: 1; transform: scale(1) translate3d(380px, 286px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+            <div class="jm-item-wrapper">
+              <div class="jm-item-image">
+                <img src="images/g5.jpg" alt="property" />
+                <span class="jm-item-overlay"> </span>
+                <div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal5">View Details</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="3, 4" data-sort="Industrial site" style="opacity: 1; transform: scale(1) translate3d(380px, 286px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+            <div class="jm-item-wrapper">
+              <div class="jm-item-image">
+                <img src="images/g6.jpg" alt="property" />
+                <span class="jm-item-overlay"> </span>
+                <div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal5">View Details</a></div>
+              </div>
 
-											<div class="clearfix"> </div>
-										</div>
-							</div>
+            </div>
+          </div>
+          <div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 3" data-sort="City lights" style="opacity: 1; transform: scale(1) translate3d(0px, 572px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+            <div class="jm-item-wrapper">
+              <div class="jm-item-image">
+                <img src="images/g7.jpg" alt="property" />
+                <span class="jm-item-overlay"> </span>
+                <div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal7">View Details</a></div>
+              </div>
 
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			  <div class="news-one-wthree-agile" >
-					<div class="col-md-6 news-left">
-							<div class="biseller-column">
-										<a class="lightbox" href="#two">
-											<img src="images/p3.jpg" alt=""/>
-										</a>
-										<div class="lightbox-target" id="two">
-										 <img src="images/p3.jpg" alt=""/>
-										 <p class="pop">Stack: React, Redux, React-Redux, Express, Sequelize, Bootstrap, Enzyme, Mocha and Chai
-                        Designed and implemented the products with rating and review forms for users to help select products to buy.
-                        Implemented backend logic for a user’s cart items. Logged in user’s cart is stored in the database and retrieved when logged in. Unlogged user’s cart is stored in the sessions.
-                        Implemented logic for administrative users to add, edit products, and view all pending orders.
-                        </p>
-										   <a class="lightbox-close" href="#p3"> </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="2, 4" data-sort="Dreamhouse" style="opacity: 1; transform: scale(1) translate3d(380px, 572px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+            <div class="jm-item-wrapper">
+              <div class="jm-item-image">
+                <img src="images/g8.jpg" alt="property" />
+                <span class="jm-item-overlay"> </span>
+                <div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal8">View Details</a></div>
+              </div>
 
-											<div class="clearfix"> </div>
-										</div>
-							</div>
-					</div>
-					<div class="col-md-6 news-right">
-					<a href="#two"><h4>Paal</h4></a>
-						<p class="para-w3-agile">Developed a single page e-commerce application that allows users to create an account and buy fictional food and drinks.
-                </p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-	</div>
-</div>
-<!-- //projects -->
+            </div>
+          </div>
+          <div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 3, 4" data-sort="Dreamhouse" style="opacity: 1; transform: scale(1) translate3d(760px, 572px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+            <div class="jm-item-wrapper">
+              <div class="jm-item-image">
+                <img src="images/g9.jpg" alt="property" />
+                <span class="jm-item-overlay"> </span>
+                <div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal9">View Details</a></div>
+              </div>
+
+            </div>
+          </div>
+                 <div class="clearfix"> </div>
+              </div>
+      </div>
+    </div>
+    </div>
+    <!--//gallery-->
+    </div>
+  <!-- //main-content -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
+          <div class="modal-dialog">
+                <!-- Modal content-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="w3ls-property-images w3-pop1-img">
+                </div>
+
+              <div class="ins-details">
+                <div class="ins-name">
+                  <h3>voluptatem accusantium doloremque</h3>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+
+                </div>
+
+              </div>
+              <div class="clearfix"></div>
+             </div>
+    </div>
+
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" >
+          <div class="modal-dialog">
+                <!-- Modal content-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="w3ls-property-images">
+                  <img src="images/gal11.jpg" alt="image">
+                </div>
+
+              <div class="ins-details">
+                <div class="ins-name">
+                  <h3>voluptatem accusantium doloremque</h3>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+
+                </div>
+
+              </div>
+              <div class="clearfix"></div>
+             </div>
+    </div>
+
+  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" >
+          <div class="modal-dialog">
+                <!-- Modal content-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class=" w3ls-property-images w3-pop1-img2">
+                <img src="images/gal22.jpg" alt="image">
+                </div>
+
+              <div class=" ins-details">
+                <div class="ins-name">
+                  <h3>voluptatem accusantium doloremque</h3>
+
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+
+                </div>
+
+              </div>
+              <div class="clearfix"></div>
+             </div>
+    </div>
+
+  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" >
+          <div class="modal-dialog">
+                <!-- Modal content-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="w3ls-property-images w3-pop1-img3">
+                <img src="images/gal33.jpg" alt="image">
+                </div>
+
+              <div class="ins-details">
+                <div class="ins-name">
+                  <h3>voluptatem accusantium doloremque</h3>
+
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+
+                </div>
+
+              </div>
+              <div class="clearfix"></div>
+             </div>
+    </div>
+
+  <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" >
+          <div class="modal-dialog">
+                <!-- Modal content-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class=" w3ls-property-images w3-pop1-img4">
+                <img src="images/gal44.jpg" alt="image">
+                </div>
+
+              <div class=" ins-details">
+                <div class="ins-name">
+                  <h3>voluptatem accusantium doloremque</h3>
+
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+
+                </div>
+
+              </div>
+              <div class="clearfix"></div>
+             </div>
+    </div>
+
+  <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" >
+          <div class="modal-dialog">
+                <!-- Modal content-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class=" w3ls-property-images w3-pop1-img5">
+                <img src="images/gal66.jpg" alt="image">
+                </div>
+
+              <div class=" ins-details">
+                <div class="ins-name">
+                  <h3>voluptatem accusantium doloremque</h3>
+
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+
+                </div>
+
+              </div>
+              <div class="clearfix"></div>
+             </div>
+    </div>
+
+  <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" >
+          <div class="modal-dialog">
+                <!-- Modal content-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class=" w3ls-property-images w3-pop1-img6">
+                  <img src="images/gal61.jpg" alt="image">
+                </div>
+
+              <div class=" ins-details">
+                <div class="ins-name">
+                  <h3>voluptatem accusantium doloremque</h3>
+
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+
+                </div>
+
+              </div>
+              <div class="clearfix"></div>
+             </div>
+    </div>
+
+  <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" >
+          <div class="modal-dialog">
+                <!-- Modal content-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class=" w3ls-property-images w3-pop1-img7">
+                  <img src="images/gal77.jpg" alt="image">
+                </div>
+
+              <div class="ins-details">
+                <div class="ins-name">
+                  <h3>voluptatem accusantium doloremque</h3>
+
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+
+                </div>
+
+              </div>
+              <div class="clearfix"></div>
+             </div>
+    </div>
+  <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" >
+          <div class="modal-dialog">
+                <!-- Modal content-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class=" w3ls-property-images w3-pop1-img8">
+                  <img src="images/gal88.jpg" alt="image">
+                </div>
+
+              <div class=" ins-details">
+                <div class="ins-name">
+                  <h3>voluptatem accusantium doloremque</h3>
+
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+
+                </div>
+
+              </div>
+              <div class="clearfix"></div>
+             </div>
+    </div>
+  <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" >
+          <div class="modal-dialog">
+                <!-- Modal content-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class=" w3ls-property-images w3-pop1-img9">
+                <img src="images/gal99.jpg" alt="image">
+                </div>
+
+              <div class="ins-details">
+                <div class="ins-name">
+                  <h3>voluptatem accusantium doloremque</h3>
+
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+
+                </div>
+
+              </div>
+              <div class="clearfix"></div>
+             </div>
+    </div>
+   <script src="js/jquery.filterizr.js"></script>
+
+      <!-- Kick off Filterizr -->
+      <script type="text/javascript">
+          $(function() {
+              //Initialize filterizr with default options
+              $('.filtr-container').filterizr();
+          });
+      </script>
+
 <!-- contact -->
 <div class="contact" id="contact">
 	<div class="container">
@@ -381,7 +624,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //footer -->
 <script src="js/bars.js"></script>
 
-<!-- here stars scrolling icon -->
+<!-- here starts scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
 				var defaults = {
@@ -394,7 +637,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			$().UItoTop({ easingType: 'easeOutQuart' });
 
 			});
-	</script>
+  </script>
+
 <!-- //here ends scrolling icon -->
 <script language="javascript" type="text/javascript">
   $(window).load(function() {

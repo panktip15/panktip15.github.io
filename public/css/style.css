@@ -624,202 +624,257 @@ h5.sub {
     margin-bottom: 20px;
 }
 /*--//work--*/
-/*--projects--*/
-.projects {
-    background: #f5f5f5;
+
+
+
+/*-- gallery --*/
+
+.item-desc {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em;
+  z-index: 1;
+  bottom: 1em;
+  left: 1em;
+  right: 1em;
 }
-.news {
-    padding:5em 0px;
+
+/* Filter controls */
+.simplefilter li, .multifilter li, .sortandshuffle li {
+  color: #1d1b1b;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0px 23px 9px;
+  font-size: 18px;
+  margin: 0 0.4em;
+font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+transition:0.5s all;
+-webkit-transition:0.5s all;
+-o-transition:0.5s all;
+-ms-transition:0.5s all;
+-moz-transition:0.5s all;
+text-transform: capitalize;
 }
-.news-top{
-	text-align:center;
+.simplefilter li.active {
+  color: #00c5b5;
+  border-bottom: 2px solid #00c5b5;
 }
-.news-bottom{
-	margin-top:4%;
+.simplefilter li:hover {
+  color: #00c5b5;
+  border-bottom: 2px solid #00c5b5;
+transition:0.5s all;
+-webkit-transition:0.5s all;
+-o-transition:0.5s all;
+-ms-transition:0.5s all;
+-moz-transition:0.5s all;
 }
-.news-left{
-	padding:0;
-}
-.news-left img{
-  width:100%;
-  height: 300px;
-  border:  1px solid rgb(230, 229, 229);
-}
-.news-right {
-    padding: 3.68em 2em 3.5em 2em;
-    border: 1px solid rgb(230, 229, 229);
-    text-align: left;
-    background: #fff;
-    height: 300px;
-}
-.news-right h4{
-	margin:0;
-}
-.news-right a h4 {
-    font-size: 1.4em;
-    margin: 0;
-    color: #00bdbd;
-    margin-bottom: 1em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-	transition:.5s ease-in-out;
-	-webkit-transition:.5s ease-in-out;
-	-moz-transition:.5s ease-in-out;
-	-o-transition:.5s ease-in-out;
-	-ms-transition:.5s ease-in-out;
-}
-.news-right p {
-    line-height: 37px;
-}
-.news-right a h4:hover{
-	color:#ec1944;
-	transition:.5s ease-in-out;
-	-webkit-transition:.5s ease-in-out;
-	-moz-transition:.5s ease-in-out;
-	-o-transition:.5s ease-in-out;
-	-ms-transition:.5s ease-in-out;
-}
-.news-right h5{
-	color: #b0afb1;
-    margin: 12px 0px;
-    font-size: 1.5em;
-    letter-spacing: 2px;
-}
-.news-one-wthree-agile{
-	margin-top:2.5%;
-}
-.news-one-wthree-agile:nth-child(1){
-	margin-top:0%;
-}
-a.lightbox img {
+.filtr-item img{
 width:100%;
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
+}
+/* Shuffle and sort controls */
+select {
+  padding: 1rem 1rem;
+  text-transform: uppercase;
+}
+.sortandshuffle .shuffle-btn {
+  background-color: #dec800;
+}
+.sortandshuffle .sort-btn {
+  background-color: #de0000;
+}
+.sortandshuffle .sort-btn.active {
+  background-color: #9d0000;
+}
+ul.simplefilter {
+  text-align: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+.item-info {
+  padding-top: 70px;
+}
+.item-type-double .item-hover {
+z-index:5;
+-webkit-transition: all 300ms ease-out;
+-moz-transition: all 300ms ease-out;
+-o-transition: all 300ms ease-out;
+transition: all 300ms ease-out;
+opacity:0;
+cursor:pointer;
+display:block;
+text-decoration:none;
+text-align:center;
+}
+.item-type-double .item-info {
+  z-index: 10;
+  color: #ffffff;
+  vertical-align: middle;
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  width: 100%;
+}
+.item-type-double .item-info .headline {
+font-size:15px;
+width:90%;
+margin:0 auto;
+}
+.item-type-double .item-info .line {
+height:2px;
+width:0%;
+margin:15px auto;
+background-color:#ffffff;
+-webkit-transition: all 300ms ease-out;
+-moz-transition: all 300ms ease-out;
+-o-transition: all 300ms ease-out;
+transition: all 300ms ease-out;
+}
+.filtr-item {
+  padding-top: 30px;
+}
+.jm-item {
+padding: 15px;
+display: inline-block;
+text-align: left;
 }
 
-/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+.jm-item-wrapper {
+position: relative;
+  padding: 7px;
+  background: #FFFFFF;
+  border: 1px solid #eee;
+}
 
-.lightbox-target {
-position: fixed;
-top: -100%;
-width: 100%;
-background: rgba(0,0,0,.7);
-width: 100%;
+.jm-item-image {
+    position: relative;
+  overflow: hidden;
+  width: 340px;
+  height: 300px;
+}
+
+.jm-item-image img {
+display: block;
+width:100%;
+}
+
+.jm-item-title {
+text-align:center;
+  background:rgba(0,175,255,0.9);
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.jm-item-overlay {
+background: #000;
 opacity: 0;
--webkit-transition: opacity .5s ease-in-out;
--moz-transition: opacity .5s ease-in-out;
--o-transition: opacity .5s ease-in-out;
-transition: opacity .5s ease-in-out;
-overflow: hidden;
-z-index: 999;
-}
-
-/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
-
-.lightbox-target img {
-margin: auto;
 position: absolute;
+width: 100%;
+height: 100%;
 top: 0;
-left:0;
-right:0;
-bottom: 0;
-max-height: 0%;
-max-width: 0%;
-border: 3px solid white;
-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
-box-sizing: border-box;
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
-}
-p.pop {
-    background-color: #fff;
-    width: 35%;
-    position: absolute;
-    top: 65%;
-    left: 32.5%;
-    padding: 2em 2em;
-    font-size: 0.9em;
-    line-height: 1.9em;
+left: 0;
+-webkit-transition: opacity 0.5s ease-in 0s;
+-moz-transition: opacity 0.5s ease-in 0s;
+-o-transition: opacity 0.5s ease-in 0s;
+transition: opacity 0.5s ease-in 0s;
 }
 
-/* Styles the close link, adds the slide down transition */
-
-a.lightbox-close {
-display: block;
-width:50px;
-height:50px;
-box-sizing: border-box;
-background: white;
-color: black;
-text-decoration: none;
-position: absolute;
-top: -80px;
-right: 0;
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
+.jm-item-wrapper:hover .jm-item-overlay {
+opacity: 0.3;
 }
 
-/* Provides part of the "X" to eliminate an image from the close link */
-
-a.lightbox-close:before {
-content: "";
-display: block;
-height: 30px;
-width: 1px;
-background: black;
-position: absolute;
-left: 26px;
-top:10px;
--webkit-transform:rotate(45deg);
--moz-transform:rotate(45deg);
--o-transform:rotate(45deg);
-transform:rotate(45deg);
+.jm-item-button {
+  text-align: center;
+  position: absolute;
+  left: 36%;
+  margin-left: -25px;
 }
 
-/* Provides part of the "X" to eliminate an image from the close link */
-
-a.lightbox-close:after {
-content: "";
-display: block;
-height: 30px;
-width: 1px;
-background: black;
-position: absolute;
-left: 26px;
-top:10px;
--webkit-transform:rotate(-45deg);
--moz-transform:rotate(-45deg);
--o-transform:rotate(-45deg);
-transform:rotate(-45deg);
+.jm-item-button a {
+  background:rgba(234, 135, 8, 0.9);
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 10px 15px;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  text-decoration: none !important;
+  display: block;
 }
 
-/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+.jm-item-button a:hover {
+  background:#FFE;
+}
+a.agile-its-property-title {
+  font-size: 22px;
+  display: block;
+  margin: 15px 0 0 0;
+  color:#337ab7;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+p.w3ls-p-text {
+  text-align: center;
+  line-height: 23px;
+  font-size: 13px;
+  width: 85%;
+  margin: 9px auto;
+}
+/** first **/
 
-.lightbox-target:target {
-opacity: 1;
-top: 0;
-bottom: 0;
-left: 0%;
+.first .jm-item-button {
+-webkit-transition: all 0.5s ease-in 0.5s;
+-moz-transition: all 0.5s ease-in 0.5s;
+-o-transition: all 0.5s ease-in 0.5s;
+transition: all 0.5s ease-in 0.5s;
+top: -100px;
 }
 
-.lightbox-target:target img {
-	    max-height: 80%;
-    max-width: 35%;
+.first .jm-item-wrapper:hover .jm-item-button {
+top: 45%;
+}
+/*-- //gallery --*/
+/*-- model --*/
+.modal-dialog {
+  width:80em;
+  margin: 91px auto;
+}
+.ins-details {
+  background-color: #fff;
+   padding: 1em;
+}
+.ins-details h3 {
+  color: #337ab7;
+  text-transform: capitalize;
+}
+.ins-details p{
+font-size:1em;
+line-height:1.8em;
 }
 
-.lightbox-target:target a.lightbox-close {
-top: 0px;
+h4.modal-title {
+  font-size: 35px;
+  color: #000;
+  text-align: center;
 }
-a.lightbox img:hover {
- background:#21A957;
+.modal.in .modal-dialog {
+  background-color: #fff;
 }
-/*--//projects--*/
+.w3ls-property-images img {
+  padding: 20px;
+  width: 100%;
+}
+/*-- //model --*/
 /*-- contact --*/
 .contact-agileits-w3layouts p {
     color: #eee;
@@ -1027,9 +1082,10 @@ a.lightbox img:hover {
 		font-size: 16px;
 		margin-top: 17px;
 	}
-	.skills-bar .b_label, .skills-bar .bar_label_min, .skills-bar .bar_label_max, .skills-bar .b_tooltip span {
+	.skills-bar .b_label, .skills-bar .bar_label_min, .skills-bar .bar_label_max, .skills-bar .gallery .b_tooltip span {
 		font-size: .8em;
-	}
+  }
+
 	.news-right a h4 {
 		font-size: 1.3em;
 		margin-bottom: 1.2em;
