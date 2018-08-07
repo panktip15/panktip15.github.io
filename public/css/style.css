@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
   font-size: 100%;
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 p{
 	margin:0;
@@ -30,6 +30,7 @@ body a:hover{
 }
 body a {
     text-decoration: none!important;
+
 }
 #loading {
    width: 100%;
@@ -75,7 +76,7 @@ body a {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:500px;
+  min-height:130px;
 }
 .header{
 	padding:5em 0 10em;
@@ -283,7 +284,7 @@ body a {
 .header-right nav ul li a{
     color: #454445;
     font-family: 'Oleo Script', cursive;
-	text-decoration: none;
+	  text-decoration: none;
 }
 .header-right nav ul li a span{
     display: block;
@@ -388,14 +389,17 @@ ul.address li ul.address-text li a:hover{
         color: #00bdbd;
 }
 ul.address-text b {
-    color:#fff;
+  color:#fff;
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 1px;
 }
 /*-- //banner --*/
 /*-- about --*/
-.about,.experience,.projects,.contact{
-	padding:100px 0px;
+.experience,.contact,.projects{
+  padding:100px 0px 100px;
+}
+.about {
+  padding:100px 0px;
 }
 h4.title-w3ls {
     color: #000;
@@ -403,7 +407,7 @@ h4.title-w3ls {
     font-size: 28px;
     text-transform: uppercase;
     font-weight: 700;
-	margin-bottom:50px;
+	  margin-bottom:50px;
 }
 span.about-top-w3 {
     color: #00bdbd;
@@ -418,7 +422,7 @@ h5.sub {
     color: #000;
     font-size: 17px;
     text-transform: capitalize;
-	margin-top: 20px;
+	  margin-top: 20px;
 }
 .para-w3-agile {
     color: #777;
@@ -429,7 +433,7 @@ h5.sub {
 /*-- skills --*/
 .skills-bar {
     margin-top: 3em;
-    margin-bottom: 30em
+    margin-bottom: 5em
 }
 .skills-bar .bar_group__bar.thin::before, .skills-bar .bar_group__bar.thick::before {
   display: block;
@@ -521,9 +525,8 @@ h5.sub {
 /*-- //skills --*/
 /*-- //about --*/
 /*--work--*/
-.work {
-    background: #000;
-}
+
+
 .work-left {
     text-align: right;
     padding: 3em 5em 0 0;
@@ -590,8 +593,11 @@ h5.sub {
     margin-right: -7.3em;
     z-index: 9;
 }
+.work-right.work-right2.silman {
+  min-height:350px
+}
 .work-right.work-right2 {
-    min-height: 210px;
+    min-height: 200px;
     float: right;
 }
 .work-right.work-right2 h4:before {
@@ -624,7 +630,7 @@ h5.sub {
   line-height: 24px;
 }
 .experience {
-    padding-top: 0px!important;
+    background: #9999992b
 }
 .experience h4.title-w3ls {
     margin-bottom: 20px;
@@ -883,6 +889,9 @@ h4.modal-title {
 }
 /*-- //model --*/
 /*-- contact --*/
+.contact{
+  background: #9999992b;
+}
 .contact-agileits-w3layouts p {
     color: #eee;
     font-size: 14px;
@@ -1057,7 +1066,7 @@ h4.modal-title {
 		letter-spacing: 3px;
 	}
 	.about, .experience, .projects, .contact {
-		padding: 80px 0px;
+    padding: 80px 0px;
 	}
 	h4.title-w3ls {
 		font-size: 26px;
@@ -1089,7 +1098,7 @@ h4.modal-title {
 		font-size: 16px;
 		margin-top: 17px;
 	}
-	.skills-bar .b_label, .skills-bar .bar_label_min, .skills-bar .bar_label_max, .skills-bar .gallery .b_tooltip span {
+	.skills-bar .b_label, .skills-bar .bar_label_min, .skills-bar .bar_label_max, .skills-bar .projects .b_tooltip span {
 		font-size: .8em;
   }
 
@@ -1298,7 +1307,7 @@ h4.modal-title {
     background-size: cover;
 	}
 	.work-right.work-right2 {
-		min-height: 246px;
+		min-height: 450px;
 	}
 	.work-left {
 		padding: 2.5em 4em 0 0;
@@ -1602,7 +1611,7 @@ h4.modal-title {
 		padding: 1.5em 4em 0 0;
 	}
 	.work-right.work-right2 {
-		min-height: 295px;
+		min-height: 405px;
 	}
 	.work-right h5 span.glyphicon {
 		margin-right: 2.7em;
