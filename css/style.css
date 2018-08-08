@@ -23,7 +23,8 @@ h3,h4,h5,h6{
 }
 ul,label{
 	margin:0;
-	padding:0;
+  padding:0;
+    list-style-type: none;
 }
 body a:hover{
 	text-decoration:none;
@@ -67,16 +68,6 @@ body a {
   -ms-background-size:cover;
 	min-height:800px;
   position: relative;
-}
-.banner1{
-	background:url(../images/banner.jpg)-25px -50px;
-  background-size:cover;
-  background-attachment: fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-  min-height:130px;
 }
 .header{
 	padding:5em 0 10em;
@@ -563,7 +554,6 @@ h5.sub {
 .work-info h5 {
     font-size: 1.3em;
     color: #00bdbd;
-    /* border: 1px solid #F7E612; */
     display: inline-block;
     padding: 0 1.2em;
 }
@@ -762,9 +752,9 @@ position: relative;
 }
 
 .jm-item-image {
-    position: relative;
+  position: relative;
   overflow: hidden;
-  width: 340px;
+  width: 334px;
   height: 300px;
 }
 
@@ -867,13 +857,19 @@ top: 45%;
    padding: 1em;
 }
 .ins-details h3 {
-  color: #337ab7;
+  color:  #00bdbd;
   text-transform: capitalize;
 }
-.ins-details p{
+.ins-details li{
 font-size:1em;
 line-height:1.8em;
 }
+.ins-details li{
+  font-size:1em;
+  color: #777;
+  padding: 0 0 0 1em;
+  line-height:1.8em;
+  }
 
 h4.modal-title {
   font-size: 35px;
@@ -1053,8 +1049,8 @@ h4.modal-title {
 		font-size: 1.4em;
 	}
 	.banner {
-		min-height: 630px;
-		    background: url(../images/banner.jpg) no-repeat -62px 0px;
+    min-height: 630px;
+		background: url(../images/banner.jpg) no-repeat 0px px;
     background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1144,6 +1140,13 @@ h4.modal-title {
 	}
 	.work-right {
 		padding: 1em 0 2em 6em;
+  }
+  .jm-item-image {
+    width: 250px;
+    height: 210px;
+	}
+  .jm-item-button {
+    left: 29%;
 	}
 	.lightbox-target:target img {
 		max-width: 45%;
@@ -1224,6 +1227,10 @@ h4.modal-title {
 	}
 	.banner-right-w3-agileits iframe {
 		height: 297px;
+  }
+  .jm-item-image {
+    width: 250px;
+    height: 210px;
 	}
 	.container.banner-drop.nav-open {
 		margin-top: 5em;
@@ -1266,6 +1273,10 @@ h4.modal-title {
 		width: 80%;
 		top: 20.8em;
 		left: 6.5em;
+  }
+  .jm-item-image {
+    width: 250px;
+    height: 210px;
 	}
 	ul.top-links li a i.fa {
 		width: 35px;
@@ -1275,9 +1286,9 @@ h4.modal-title {
 		height: 280px;
 	}
 	.banner {
-		min-height: 490px;
+    min-height: 490px;
 		background: url(../images/banner.jpg) no-repeat -45px 0px;
-    background-size: cover;
+    background-size: 105%;
 	}
 	p.pop {
 		top: 65%;
@@ -1304,11 +1315,18 @@ h4.modal-title {
 	.banner {
 		min-height: 470px;
 		background: url(../images/banner.jpg) no-repeat -26px 0px;
-    background-size: cover;
+    background-size: 105%;
+  }
+  .jm-item-image {
+    width: 300px;
+    height: 300px;
 	}
 	.work-right.work-right2 {
-		min-height: 450px;
-	}
+		min-height: 200px;
+  }
+  .work-right.work-right2.silman {
+    min-height:200px
+  }
 	.work-left {
 		padding: 2.5em 4em 0 0;
 		float: left;
@@ -1366,7 +1384,8 @@ h4.modal-title {
 		top: 19em;
 		left: 5em;
 		width: 82%;
-	}
+  }
+
 	.logo h1 a {
 		font-size: 1.1em;
 	}
@@ -1386,10 +1405,14 @@ h4.modal-title {
 	.banner {
 		min-height: 435px;
 		background: url(../images/banner.jpg) no-repeat -33px 0px;
-		background-size: cover;
+    background-size: 105%;
 	}
 	.banner-right-w3-agileits iframe {
 		height: 265px;
+  }
+  .jm-item-image {
+    width: 300px;
+    height: 300px;
 	}
 	h4.title-w3ls {
 		font-size: 23px;
@@ -1448,7 +1471,7 @@ h4.modal-title {
 	}
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -100px 0px;
-		background-size: cover;
+    background-size: 105%;
 	}
 }
 @media(max-width:768px){
@@ -1458,6 +1481,9 @@ h4.modal-title {
 	}
 	.banner-left-wthree {
 		padding: 26px 31px;
+  }
+  .banner {
+    background-size: 110%;
 	}
 	p.pop {
 		top: 55%;
@@ -1481,6 +1507,9 @@ h4.modal-title {
 	}
 	.header-right nav {
 		left: 17%;
+  }
+  .banner {
+    background-size: 110%;
 	}
 }
 @media(max-width:736px){
@@ -1504,7 +1533,7 @@ h4.modal-title {
 	}
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -20px 0px;
-		background-size: cover;
+    background-size: 110%;
 		min-height: 355px;
 	}
 	h4.title-w3ls {
@@ -1541,10 +1570,14 @@ h4.modal-title {
 	}
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -60px 0px;
-		background-size: cover;
+    background-size: 105%;
 	}
 	.banner-right-w3-agileits iframe {
 		height: 215px;
+  }
+  .jm-item-image {
+    width: 250px;
+    height: 250px;
 	}
 	span.about-top-w3 {
 		font-size: 10.5px;
@@ -1569,7 +1602,8 @@ h4.modal-title {
 		padding: 65px 0px;
 	}
 	.banner {
-		min-height: 348px;
+    min-height: 348px;
+    background-size: 115%;
 	}
 	.banner-btm-grid-w3ls {
 		left: 4em;
@@ -1593,8 +1627,19 @@ h4.modal-title {
 		top: 14.8em;
 	}
 	.banner {
-		min-height: 327px;
-	}
+    min-height: 327px;
+    background-size: 115%;
+  }
+  .modal-dialog {
+    width:28em;
+  }
+  .jm-item-image {
+    width: 240px;
+    height: 200px;
+  }
+  .jm-item-button a {
+    padding: 10px 7px;
+}
 	h4.title-w3ls {
 		margin-bottom: 30px;
 	}
@@ -1611,8 +1656,11 @@ h4.modal-title {
 		padding: 1.5em 4em 0 0;
 	}
 	.work-right.work-right2 {
-		min-height: 405px;
-	}
+		min-height: 200px;
+  }
+  .work-right.work-right2.silman {
+    min-height:200px
+  }
 	.work-right h5 span.glyphicon {
 		margin-right: 2.7em;
 	}
@@ -1634,7 +1682,15 @@ h4.modal-title {
 		top: -27%;
 	}
 	.banner {
-		min-height: 310px;
+    min-height: 310px;
+    background-size: 110%;
+  }
+  .modal-dialog {
+    width:25em;
+  }
+  .jm-item-image {
+    width: 200px;
+    height: 200px;
 	}
 	h5.sub {
 		font-size: 15px;
@@ -1680,8 +1736,11 @@ h4.modal-title {
 		font-size: 13px;
 	}
 	.work-right.work-right2 {
-		min-height: 268px;
-	}
+		min-height: 200px;
+  }
+  .work-right.work-right2.silman {
+    min-height:200px
+  }
 	.banner-left-wthree img {
 		width: 33%;
 	}
@@ -1733,13 +1792,18 @@ h4.modal-title {
 		margin: 3px !important;
 	}
 	.banner {
-		min-height: 270px;
+    min-height: 300px;
+    background-size: 120%;
 	}
 	.banner-right-w3-agileits {
 		padding: 25px;
 	}
 	.banner-right-w3-agileits iframe {
 		height: 170px;
+  }
+  .jm-item-image {
+    width:180px;
+    height:180px;
 	}
 	ul.address li ul.address-text li {
 		font-size: 12.4px;
@@ -1756,15 +1820,15 @@ h4.modal-title {
 	}
 	.work-left {
 		float: none;
-		width: 100%;
+		width: 80%;
 		text-align: left;
-		padding: 1.35em 0em 0 0px;
+		padding: 1.35em 0em 0 2em;
 	}
 	.work-right {
 		float: none;
-		width: 100%;
+		width: 80%;
 		border-left: none;
-		padding: 1em 0 0em 0em;
+		padding: 1em 0 0em 2em;
 	}
 	.work-right h5 span.glyphicon {
 		margin-right: 1.3em;
@@ -1778,7 +1842,11 @@ h4.modal-title {
 	}
 	.work-right.work-right2 {
 		min-height: 0;
-	}
+  }
+  .work-right.work-right2.silman {
+    text-align: left;
+    min-height:0px
+  }
 	.work-info p {
 		line-height: 30px;
 	}
@@ -1827,12 +1895,25 @@ h4.modal-title {
 		padding: 1em .8em 2em;
 	}
 	.banner {
-		min-height: 240px;
+    min-height: 414px;
+    background-size: 105%;
+
 	}
 	.banner-btm-grid-w3ls {
 		top: 11.5em;
 		left: 1.56em;
 		width: 88%;
+  }
+  .jm-item-image {
+    width: 330px;
+    height: 300px;
+	}
+	.jm-item-image img {
+    display: block;
+    width: 330px;
+  }
+  .jm-item-button {
+    left: 37%;
 	}
 	.header-right nav {
 		left: 0%;
@@ -1885,6 +1966,10 @@ h4.modal-title {
 	}
 	.banner-left-wthree img {
 		width: 40%;
+  }
+  .jm-item-image {
+    width: 303px;
+    height: 300px;
 	}
 	.para-w3-agile {
 		font-size: 13px;
@@ -1895,7 +1980,7 @@ h4.modal-title {
 	}
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -25px 0px;
-		background-size: cover;
+    background-size: 105%;
 		min-height: 205px;
 	}
 	.work-info p {
@@ -1963,8 +2048,12 @@ h4.modal-title {
 	}
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -16px 0px;
-		background-size: cover;
+    background-size: 105%;
 		min-height: 192px;
+  }
+  .jm-item-image {
+    width:278px;
+    height:250px;
 	}
 	.work-info h5 {
 		font-size: 16.5px;
@@ -2010,6 +2099,10 @@ h4.modal-title {
 	}
 	.banner-left-wthree {
 		padding: 17px;
+  }
+  .jm-item-image {
+    width: 238px;
+    height: 266px;
 	}
 	ul.address li ul.address-text li:nth-child(1) {
 		width: 19%;
@@ -2019,7 +2112,7 @@ h4.modal-title {
 	}
 	.banner {
 		background: url(../images/banner.jpg) no-repeat -5px 0px;
-		background-size: cover;
+    background-size: 105%;
 		min-height: 160px;
 	}
 	.banner-right-w3-agileits {
