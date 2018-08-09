@@ -389,6 +389,8 @@ ul.address-text b {
   padding:100px 0px 100px;
 }
 .about {
+  background:url(../images/dust_scratches.png);
+  background-attachment: fixed;
   padding:100px 0px;
 }
 h4.title-w3ls {
@@ -882,6 +884,67 @@ h4.modal-title {
   padding: 20px;
   width: 100%;
 }
+
+/* Yaku */
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.link--yaku {
+	color: #D3D3D3;
+	font-weight: 400;
+	font-size: 1em;
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+.link--yaku:hover::before {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.link--yaku span {
+	display: inline-block;
+	position: relative;
+	-webkit-transform: perspective(1000px) rotate3d(0,1,0,0deg);
+	transform: perspective(1000px) rotate3d(0,1,0,0deg);
+	-webkit-transition: -webkit-transform 0.5s, color 0.5s;
+	transition: transform 0.5s, color 0.5s;
+}
+
+.link--yaku:hover span {
+	color: #1e1a1b;
+	-webkit-transform: perspective(1000px) rotate3d(0,1,0,360deg);
+	transform: perspective(1000px) rotate3d(0,1,0,360deg);
+}
+
+.link--yaku span:nth-child(4),
+.link--yaku:hover span:first-child {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.link--yaku span:nth-child(3),
+.link--yaku:hover span:nth-child(2) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.link--yaku span:nth-child(2),
+.link--yaku:hover span:nth-child(3) {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+.link--yaku span:first-child,
+.link--yaku:hover span:nth-child(4) {
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+
 /*-- //model --*/
 /*-- contact --*/
 .contact{
