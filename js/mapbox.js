@@ -4,6 +4,16 @@ document.write(`\
   </script>
   <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
 
+  <style>
+    .mapboxgl-popup {
+        max-width: 400px;
+        font: 16px 'Oswald', Helvetica, sans-serif;
+    }
+    .mapboxgl-popup strong {
+       color: #00bdbd;
+    }
+  </style>
+
   <div id='map'></div>
   <script>
   mapboxgl.accessToken = 'pk.eyJ1IjoicGFua3RpcDE1IiwiYSI6ImNqa2g4eHB4dDA0bzczcXFxODloaDVpemgifQ._UlqK-ylyII0g8cVZpKiNg';
@@ -55,6 +65,26 @@ document.write(`\
                   }, {
                     "type": "Feature",
                     "properties": {
+                        "description": "<strong>Temple University</strong><p>Bachelors of Science in Architecture</p>",
+                        "icon": "marker"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-75.158, 39.983]
+                    },
+                  }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Lehigh University</strong><p>Masters of Engineering in Structural Engineering</p>",
+                        "icon": "marker"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-75.378, 40.607]
+                    },
+                  }, {
+                    "type": "Feature",
+                    "properties": {
                         "description": "<strong>AECOM</strong><p>Strucural Engineer: Designed bridges and catenary cables</p>",
                         "icon": "marker"
                     },
@@ -71,6 +101,36 @@ document.write(`\
                     "geometry": {
                         "type": "Point",
                         "coordinates": [-75.468, 40.602]
+                    }
+                  }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Art of Living Retreat Center</strong><p>My absolute favorite place to decompress & destress</p>",
+                        "icon": "marker"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-81.585, 36.175]
+                    }
+                  }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Hometown</strong><p>Spent my childhood in this busy city</p>",
+                        "icon": "marker"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [72.795, 18.944]
+                    }
+                  }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Jignesh Doshi Architects</strong><p>Did my summer internship as an Architect</p>",
+                        "icon": "marker"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [72.86, 19.02]
                     }
                 }]
             }
