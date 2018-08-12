@@ -130,7 +130,7 @@ document.write(`\
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [-74.005, 40.732]
+                        "coordinates": [-87.625, 41.863]
                     }
                   }, {
                     "type": "Feature",
