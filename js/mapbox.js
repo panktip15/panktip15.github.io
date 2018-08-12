@@ -115,6 +115,46 @@ document.write(`\
                   }, {
                     "type": "Feature",
                     "properties": {
+                        "description": "<strong>Moustache Pitza</strong><p>Amazing middle easter food</p>",
+                        "icon": "marker"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-74.005, 40.732]
+                    }
+                  }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Giodarno's</strong><p>Chicago style pizza anyone?/p>",
+                        "icon": "marker"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-74.005, 40.732]
+                    }
+                  }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Meske</strong><p>Ever tried Ethiopian food? This is the spot!</p>",
+                        "icon": "marker"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-74.992, 40.662]
+                    }
+                  }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Mini Vacation</strong><p>One of my favourite mini vacation spot.</p>",
+                        "icon": "marker"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-106.944, 39.209]
+                    }
+                  }, {
+                    "type": "Feature",
+                    "properties": {
                         "description": "<strong>Hometown</strong><p>Spent my childhood in this busy city</p>",
                         "icon": "marker"
                     },
