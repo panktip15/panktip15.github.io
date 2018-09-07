@@ -111,7 +111,16 @@ document.write(`\
                     "geometry": {
                         "type": "Point",
                         "coordinates": [-81.585, 36.175]
-                    }
+                    }                  }, {
+                      "type": "Feature",
+                      "properties": {
+                          "description": "<strong>Grimaldi's Pizza</strong><p>New York style Pizza anyone?</p>",
+                          "icon": "marker"
+                      },
+                      "geometry": {
+                          "type": "Point",
+                          "coordinates": [-73.993, 40.702]
+                      }
                   }, {
                     "type": "Feature",
                     "properties": {
