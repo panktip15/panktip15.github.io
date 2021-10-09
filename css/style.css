@@ -82,6 +82,13 @@ body a {
     color: #00bdbd;
     line-height: 45px;
 }
+.name {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 15em;
+}
 .name h1 {
     text-align: center;
     font-size: 70px;
@@ -588,6 +595,7 @@ h5.sub {
     color: #00bdbd;
     display: inline-block;
     padding: 0 1.2em;
+    width: 400px;
 }
 .work-info h5 span.glyphicon {
     font-size: 0.9em;
